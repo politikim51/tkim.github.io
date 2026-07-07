@@ -10,11 +10,12 @@ author_profile: true
   </a>
 </div>
 
-<div style="border: 1px solid #d0d7de; border-radius: 6px; overflow: hidden; background: #f6f8fa; width: 115%; max-width: none;">
-  <object data="/files/Taeil_Kim_CV.pdf" type="application/pdf" width="100%" height="760">
-    <p style="padding: 1rem; margin: 0;">
-      Your browser cannot display the PDF preview.
-      <a href="/files/Taeil_Kim_CV.pdf">Open the CV PDF</a>.
-    </p>
-  </object>
+<div style="border: 1px solid #d0d7de; border-radius: 6px; overflow: hidden; background: #f6f8fa; width: 110%; max-width: none;">
+  <iframe
+    src="/files/Taeil_Kim_CV.pdf#toolbar=0&navpanes=0&zoom=90"
+    width="100%"
+    height="760"
+    style="display: block; border: 0;"
+    title="Taeil Kim CV PDF preview">
+  </iframe>
 </div>
