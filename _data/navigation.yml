@@ -9,7 +9,7 @@
 
 main:
   - title: "CV"
-    url: /files/Taeil_Kim_CV.pdf
+    url: /cv/
     
   - title: "Contact"
     url: /contact/
