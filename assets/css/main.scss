@@ -89,3 +89,43 @@
     display: inline-block;
   }
 }
+/* Center site title, place menu items on the right */
+@media (min-width: 57.8125em) {
+  .masthead__inner-wrap {
+    max-width: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .greedy-nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 42px;
+  }
+
+  .greedy-nav .visible-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.8rem;
+  }
+
+  .greedy-nav .visible-links > li:first-child {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+
+  .greedy-nav .visible-links > li:first-child a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .greedy-nav .visible-links > li:not(:first-child) {
+    margin-left: 0;
+  }
+}
