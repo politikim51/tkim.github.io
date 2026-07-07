@@ -90,7 +90,7 @@
   }
 }
 
-/* Header: centered name, right-side links */
+/* Header layout: keep greedy-nav, move title visually */
 @media (min-width: 57.8125em) {
   .masthead__inner-wrap {
     max-width: none;
@@ -109,21 +109,14 @@
   }
 
   #site-nav.greedy-nav .visible-links {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 1.8rem;
-    float: none;
-  }
-
-  #site-nav.greedy-nav .visible-links > li {
-    float: none;
-    margin-left: 0;
+    float: right;
   }
 
   #site-nav.greedy-nav .visible-links > li:first-child {
-    position: absolute;
-    left: 50vw;
+    position: fixed;
+    left: 44vw;
+    top: 0.72rem;
     transform: translateX(-50%);
+    z-index: 30;
   }
 }
